@@ -1,25 +1,26 @@
 {
-  "name": "webpack-template",
+  "name": "karjeje-image-carousel",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --open --config webpack.dev.js",
     "lint": "eslint . --ext .js",
     "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Karjeje/webpack-template.git"
+    "url": "git+https://github.com/Karjeje/image-carousel.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Karjeje/webpack-template/issues"
+    "url": "https://github.com/Karjeje/image-carousel/issues"
   },
-  "homepage": "https://github.com/Karjeje/webpack-template#readme",
+  "homepage": "https://github.com/Karjeje/image-carousel#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "eslint": "^9.38.0",
